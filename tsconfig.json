@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "useDefineForClassFields": true,
+        "lib": ["ES2022", "DOM", "DOM.Iterable"],
+        "module": "ESNext",
+        "skipLibCheck": true,
+
+        // bundler
+        "declaration": true,
+        "isolatedModules": true,
+        "jsx": "react-jsx",
+        "moduleResolution": "Node",
+        "outDir": "./dist",
+        "resolveJsonModule": true,
+        "sourceMap": true,
+
+        // package
+        "noEmit": false,
+        "allowImportingTsExtensions": false,
+
+        // linting
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "include": ["src", "./.eslintrc.cjs", "./vite.config.ts"],
+    "references": [{ "path": "./tsconfig.node.json" }]
+}

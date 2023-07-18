@@ -1,0 +1,14 @@
+{
+    "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+    "editor.formatOnSave": true,
+    "editor.guides.bracketPairs": true,
+    "editor.rulers": [100],
+    "editor.tabSize": 4,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "workbench.tree.indent": 22
+    /*
+    "editor.fontSize": 13,
+    "editor.renderWhitespace": "all",
+    "workbench.colorTheme": "Electron",
+    */
+}

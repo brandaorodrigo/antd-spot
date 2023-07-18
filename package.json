@@ -1,0 +1,89 @@
+{
+    "name": "antd-normalize-validate",
+    "version": "1.0.7",
+    "private": false,
+    "license": "MIT",
+    "description": "extra functionalities to ant design 5 form components, automating normalization and validation rules.",
+    "author": "rodrigo brandão <rodrigo.brandao.contato@gmail.com>",
+    "keywords": [
+        "react",
+        "form",
+        "antd",
+        "ant-design",
+        "normalize",
+        "validate",
+        "antdesign",
+        "input",
+        "select",
+        "datepicker"
+    ],
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "main": "dist/src/index.js",
+    "typings": "dist/src/index.d.ts",
+    "types": "dist/src/index.d.ts",
+    "homepage": "https://github.com/brandaorodrigo/antd-normalize-validate",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brandaorodrigo/antd-normalize-validate.git"
+    },
+    "bugs": {
+        "url": "https://github.com/brandaorodrigo/antd-normalize-validate/issues"
+    },
+    "scripts": {
+        "build": "tsc",
+        "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx",
+        "dev": "vite",
+        "preview": "vite preview",
+        "start": "vite --host"
+    },
+    "peerDependencies": {
+        "antd": ">=5.0.0",
+        "dayjs": ">=1.11.0",
+        "react": ">=17.0.0",
+        "react-dom": ">=17.0.0"
+    },
+    "dependencies": {
+        "antd": ">=5.0.0",
+        "dayjs": ">=1.11.0",
+        "react": ">=17.0.0",
+        "react-dom": ">=17.0.0"
+    },
+    "devDependencies": {
+        "@emotion/css": "^11.11.2",
+        "@types/react": "^18.0.31",
+        "@types/react-dom": "^18.2.4",
+        "@typescript-eslint/eslint-plugin": "^6.1.0",
+        "@typescript-eslint/parser": "^6.1.0",
+        "@vitejs/plugin-react": "^4.0.3",
+        "eslint": "^8.45.0",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-plugin-prettier": "^5.0.0",
+        "eslint-plugin-react": "^7.32.2",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-simple-import-sort": "^10.0.0",
+        "prettier": "^3.0.0",
+        "typescript": "^5.1.6",
+        "vite": "^4.4.4",
+        "vite-plugin-checker": "^0.6.1"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
